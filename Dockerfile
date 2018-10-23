@@ -1,7 +1,7 @@
 FROM eclipse/stack-base:debian
 
 RUN sudo apt-get update && \
-    sudo apt-get upgrade && \
+    sudo apt-get -y upgrade && \
     sudo apt-get clean && \
     sudo apt-get -y autoremove && \
     sudo apt-get -y clean && \
